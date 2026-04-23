@@ -1,5 +1,5 @@
 html {
-    background: white;
+    background: #ededed;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -74,7 +74,7 @@ p {
     text-align: center;
 }
 .graytext {
-    color: #676767;
+    color: #525252;
 }
 hr {
     border: 0;
@@ -102,16 +102,19 @@ hr {
 }
 
 
-#menu-section {
-    display: flexbox;
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
 }
-.menu1 {
-    display: flex;
-    gap: 16px;
+.menumainimg {
 }
 #menuimg1 {
     max-width: 270px;
     height: auto;
+}
+.menudesc {
+    grid-column-start: span 4 / span 4;
 }
 
 .home-content {
