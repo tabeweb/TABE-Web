@@ -17,33 +17,10 @@ p {
     font-size: 20px;
 }
 
-#navbar {
-    padding: 0 50px;
-    z-index: 1000;
-    box-shadow: 0px 5px 10px 0px #959595;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    gap: 5px;
-    background-color: white;
-}
-#navitem {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
-}
-#logo {
-    max-width: 100px;
-    height: auto;
-    margin-right: 80px;
-}
-
 
 .header {
     display: flexbox;
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
     font-size: 150%;
 }
