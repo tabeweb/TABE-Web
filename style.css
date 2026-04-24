@@ -104,7 +104,7 @@ hr {
 
 .menu-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-top: auto;
     margin-bottom: 70px;
 }
@@ -115,9 +115,11 @@ hr {
 #menuimg1 {
     max-width: 150px;
     height: auto;
+    grid-column-start: 2;
 }
 .menudesc {
     font-size: 16px;
+    grid-column-start: 3;
 }
 
 .home-content {
