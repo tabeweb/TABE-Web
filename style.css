@@ -1,5 +1,5 @@
 html {
-    background: #ededed;
+    background: #FFFFF0;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -18,8 +18,9 @@ p {
     font-size: 20px;
 }
 
+
 nav { 
-    background-color: white;
+    background-color: #FAF9F6;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -77,7 +78,7 @@ hr {
     border: 0;
     border-top: 2px solid #333;
     width: 70%;
-    margin-right: 0;
+    margin-right: 50px;
     margin-left: auto;
 }
 
@@ -130,4 +131,19 @@ hr {
     position: relative;
     overflow: hidden;
     padding-bottom: 15.6rem;
+}
+
+/* footer */
+.footer {
+    display: grid;
+    background-color: black;
+    width: 100%;
+    color: #FAF9F6;
+    
+}
+.footer-title {
+    text-align: center;
+}
+.contacts {
+    text-align: center;
 }
